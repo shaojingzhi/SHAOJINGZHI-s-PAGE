@@ -1,0 +1,153 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #fbf2e3;
+  color: #5D5D5D;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #fff;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #cc163a;}
+
+h3
+{ font: normal 165% 'century gothic', arial, sans-serif;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #cc163a;}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  color: #888;}
+
+h6
+{ color: #fff;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+
+#main, #logo, #menubar, #site_content
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ padding-bottom: auto;}
+
+#header
+{ background: #8fb2c9;
+  height: 170px;
+  margin-bottom: 20px;}
+
+#logo
+{ width: 940px;
+  position: relative;
+  height: 134px;
+  background: #8fb2c9 url(blue.png) no-repeat;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 10px;
+  left: 0;}
+
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0 0 0 9px;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ color: #FFF;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #FFD700;}
+
+#logo_text h2
+{ font-size: 120%;
+  padding: 4px 0 0 0;
+  color: #CDD1D3;}
+
+#menubar
+{ height: 44px;
+  width: 980px;} 
+
+ul#menu
+{ float: left;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 5px;
+  list-style: none;
+  margin: 2px 2px 2px 2px;
+  background: #635B53;}
+
+ul#menu li a
+{ font: normal 100% 'trebuchet ms', sans-serif;
+  display: block; 
+  height: 20px;
+  padding: 5px 15px 2px 10px;
+  text-align: center;
+  color: #5d5d5d;
+  text-decoration: none;
+  background: #f0f8ff ;} 
+
+ul#menu li.selected a
+{ background: #f0f8ff;
+  color: #cc163a;}
+
+#site_content
+{ width: 878px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 20px 40px;
+  background: #FFF;} 
+.sidebar
+{ float: right;
+  width: 190px;
+  padding: 0 15px 20px 15px;}
+
+#content
+{ text-align: left;
+  width: 613px;
+  padding: 0;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+.form_settings span
+{ float: left; 
+  width: 100px; 
+  text-align: left;}
+  
