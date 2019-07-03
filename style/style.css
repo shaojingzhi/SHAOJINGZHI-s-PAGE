@@ -19,7 +19,7 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #fff;
+  color: #cc163a;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
@@ -46,6 +46,7 @@ h6
 ul
 { margin: 2px 0 22px 17px;}
 
+
 #main, #logo, #menubar, #site_content
 { margin-left: auto; 
   margin-right: auto;}
@@ -58,7 +59,7 @@ ul
   height: 170px;
   margin-bottom: 20px;}
 
-#logo
+#logo/*最上方大标题，背景，图片*/
 { width: 940px;
   position: relative;
   height: 134px;
@@ -87,7 +88,7 @@ ul
   padding: 4px 0 0 0;
   color: #CDD1D3;}
 
-#menubar
+#menubar/*菜单栏*/
 { height: 44px;
   width: 980px;} 
 
@@ -115,18 +116,18 @@ ul#menu li.selected a
 { background: #f0f8ff;
   color: #cc163a;}
 
-#site_content
+#site_content/*内页*/
 { width: 878px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 20px 20px 40px;
-  background: #FFF;} 
-.sidebar
+  background: #fbf2e3;} 
+.sidebar/*侧边栏*/
 { float: right;
   width: 190px;
   padding: 0 15px 20px 15px;}
 
-#content
+#content/*内页文字*/
 { text-align: left;
   width: 613px;
   padding: 0;}
