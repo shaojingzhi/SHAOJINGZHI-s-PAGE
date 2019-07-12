@@ -38,11 +38,21 @@
         <p>关于第二次小作业的总结。<br /><a href="another_page.html">Read more</a></p>
       </div>
       <div id="content">
-        <h2>Welcome to SHAOJINGZHI's PAGE!</h2>
-        <p>这是一个欢迎页面！</p>
-        <p>自我介绍在Personal Infomation页面中</p>
-        <p>两篇博文可以通过右边栏的链接访问</p>
-        <p>联系方式在Contact Us页面中</p>
+        <h2>关于第四次小作业的总结</h2>
+        <p>本次实验使用express框架在服务器上搭建一个简单的Web 后端服务。</p>
+        <p>IP address:152.136.207.16</p>
+        <p>PORT：8000</p>
+        <p>1.静态文件服务搭建：使用`app.use(express.static('../public/'))`语句。将静态文件放在同一个项目目录下的public文件夹中即可。</p>
+        <p>2.API服务搭建：用express generator创建项目之后修改app.js文件实现四个接口。
+          首先需要对token进行判断，用```req.get()```函数读取输入的token，与自己的token进行比较，相同就继续进行下一步，
+          不同则用到```res.sendStatus()```函数直接返回错误码。
+          ```compute```接口用```req.param()```函数读取参数，进行加减乘除操作即可。
+          其他三个接口可以通过对一个全局变量buf进行操作来完成。
+          ```POST```接口直接建立键值对应```buf['key']='content'```,
+          ```GET```和```DELETE```操作判断键值是否存在，若存在则进行查询或删除，不存在则返回错误码。</p>
+        <p>3.用Eslint进行语法风格检验：install Eslint之后修改```.eslintrc.js```文件，之后发现extend语句无法正常执行，因此需要安装```standard```包。
+          之后```eslint --fix app.js```即可自动进行语法检验和大部分的修正。
+          第一次知道标准语法是```buf = {}```而不是```buf = new Object()```，以及标准语法不能加分号。</p>
         <h2>Browser Compatibility</h2>
         <p>在以下主流浏览器中均可正常显示：</p>
           <ul>Internet Explorer</ul>
